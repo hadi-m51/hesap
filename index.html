@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HADI51</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"/><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- //dddddddddddddddddddddddddddddddddddddd -->
+
+    <header class="header">
+      <div class="container">
+        <a href="" class="logo">            
+         <img src="Untitled (1).png" width="55" height="55"  alt="OOHADI51">
+        </a><a href="eng.html"><button  style="padding: 0.25cm; background-color: #0672ff; color: aliceblue ;" class="material-icons" >language</button></a>
+        <nav class="nav">
+          <ul>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      
+    </main>
+
+   <!-- //dddddddddddddddddddddddddddddddddddddd -->
+
+    <div class="wrapper">
+      <div class="container">
+        <div class="sub-container">
+          <!-- Budget -->
+          <div class="total-amount-container">
+            <h3>إجمالي المدخول</h3>
+            <p class="hide error" id="budget-error">
+              لا يمكن أن تكون القيم فارغة
+            </p>
+            <input
+              type="number"
+              id="total-amount"
+              placeholder="أدخل الميزانية + مجموع الارباح"
+            />
+            <button class="submit" id="total-amount-button">ضبط</button>
+          </div>
+
+          <!-- Expenditure -->
+          <div class="user-amount-container">
+            <h3>النفقات</h3>
+            <p class="hide error" id="product-title-error">
+              لا يمكن أن تكون القيم فارغة
+            </p>
+            <input
+              type="text"
+              class="product-title"
+              id="product-title"
+              placeholder="أدخل اسم المنتج"
+            />
+            <input
+              type="number"
+              id="user-amount"
+              placeholder="أدخل تكلفة المنتج"
+            />
+            <button class="submit" id="check-amount">اضف لقائمة النفقات</button>
+          </div>
+        </div>
+        <!-- Output -->
+        <div class="output-container flex-space">
+          <div>
+            <p>الرصيد الإجمالية            </p>
+            <span id="amount">0</span>
+          </div>
+          <div>
+            <p>النفقات</p>
+            <span id="expenditure-value">0</span>
+          </div>
+          <div>
+            <p>الصافي</p>
+            <span id="balance-amount">0</span>
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- List -->
+      <div class="list">
+        <h3>قائمة النفقات        </h3>
+        <div class="list-container" id="list"></div>
+    </div>
+    
+ <!-- Output -->
+ <div class="output-container font-awesome">
+  <div>
+    <span id="amount">-معلومة!-</span>
+    <span id="amount">
+      *الصافي هو ماتبقى لك من مجموع الارباح وراس المال
+      <br>*عند ادخالك اجمالي المدخول يتعين عليك: ادخال مبلغ راس المال + مجموع ارباحك
+    </span>
+  </div></div></div>
+  <div></div>
+
+  <!-- Start of shorte.st banner code --><center>
+<a href="http://join-shortest.com/ref/5b4cd221c5?user-type=new"><img src="https://static.shorte.st/bundles/smeuser/img/referral_banners/125x125.png?2022-06-29.0" title="Earn on short links" width="320" height="150" /></a> <br>
+<!-- Start of shorte.st banner code -->
+<a href="http://join-shortest.com/ref/5b4cd221c5?user-type=new"><img src="//static.shorte.st/bundles/smeuser/img/referral_banners/es_160x600.png?2022-06-29.0" title="Comparte tus enlaces y gana dinero" width="320" height="150"/></a> <br>
+<!-- Start of shorte.st banner code -->
+<a href="http://join-shortest.com/ref/5b4cd221c5?user-type=new"><img src="https://static.shorte.st/bundles/smeuser/img/referral_banners/ru_160x600.png?2022-06-29.0" title="Распространяйте свои ссылки и зарабатывайте при этом деньги!"  width="320" height="150" /></a>
+<!-- End of shorte.st banner code -->
+<!-- End of shorte.st banner code -->
+<!-- End of shorte.st banner code -->
+</center>
+    <!-- Script -->
+    <script src="script.js"></script>
+    
+  </body>
+</html>
